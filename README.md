@@ -2,7 +2,7 @@
   <br>
   <img src="https://i.imgur.com/7nkwu15.png" alt="React Dashboard Boilerplate" width="200">
   <br>
-    React Dashboard Boilerplate
+    React Dashboard Boilerplate for bdsports.club
   <br>
 </h1>
 
@@ -23,7 +23,6 @@
   - To extend the CRA webpack config, use `craco.config.js` file. No need to eject
   - Esbuild added for zipping fast builds!
 - :chart_with_upwards_trend: Redux and Redux Saga but with less boilerplate. See <a href="/src/store">store</a>
-
 
 - :cop: Eslint and Prettier configured with git hooks
 
