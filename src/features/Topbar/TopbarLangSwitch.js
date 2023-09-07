@@ -27,6 +27,7 @@ function TopBarLangSwitch(props) {
       >
         <option value="english">EN</option>
         <option value="bangla">BN</option>
+        <option value="swedish">SE</option>
       </select>
     </LangSwithContainer>
   );

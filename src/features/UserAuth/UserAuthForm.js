@@ -23,7 +23,7 @@ function UserAuthForm() {
     <form name="basic" onSubmit={onFinish}>
       <input className="mb-2 mt-4" placeholder={messages.Email} />
       <input className="my-2" type="password" placeholder={messages.Password} />
-      <button size="large" className="my-2 p-2" type="submit" htmlType="submit">
+      <button size="large" className="my-2 p-2" type="submit" htmltype="submit">
         {messages.Submit}
       </button>
     </form>

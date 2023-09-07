@@ -17,6 +17,12 @@ const langConfig = {
       text: 'Bangla',
       icon: '',
     },
+    {
+      languageId: 'swedish',
+      locale: 'se',
+      text: 'Swedish',
+      icon: '',
+    },
   ],
 };
 

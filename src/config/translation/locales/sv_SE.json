@@ -1,0 +1,23 @@
+{
+  "Sign In": "Logga in",
+  "is required!": "krävs!",
+  "is not valid!": "är inte giltigt!",
+  "should be at least": "borde vara åtminstone",
+  "should be max": "bör vara max",
+  "characters": "tecken",
+  "Password": "Lösenord",
+  "Username": "Användarnamn",
+  "Email": "E-post",
+  "Submit": "Skicka in",
+  "Login": "Logga in",
+  "Home Page": "Hemsida",
+  "Sorry, the page you visited does not exist.": "Tyvärr, sidan du besökte finns inte",
+  "Go Back": "Gå tillbaka",
+  "404": "404",
+  "Demo Page": "Demosida",
+  "Dashboard": "instrumentbräda",
+  "Settings": "inställningar",
+  "Logout": "Logga ut",
+  "Successfully logged in!": "Inloggad framgångsrikt!",
+  "Sorry, something went wrong!": "Förlåt, något gick fel!"
+}
