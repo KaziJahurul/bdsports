@@ -9,8 +9,10 @@ import { useSelector } from 'react-redux';
 import PropTypes from 'prop-types';
 import { PUBLIC_ROUTE } from './appRoutes';
 
-const Dashboard = lazy(() => import('features/Dashboard'));
+// const Dashboard = lazy(() => import('features/Dashboard'));
+const DashboardPage = lazy(() => import('pages/DashboardPage'));
 const SignInPage = lazy(() => import('pages/SignInPage'));
+const HomePage = lazy(() => import('pages/HomePage'));
 const NotFound = lazy(() => import('pages/NotFoundPage'));
 
 function PrivateRoute({ children, ...rest }) {
@@ -45,7 +47,7 @@ function Routes() {
     {
       path: PUBLIC_ROUTE.LANDING,
       exact: true,
-      component: SignInPage,
+      component: HomePage,
     },
     {
       path: PUBLIC_ROUTE.SIGN_IN,
@@ -64,7 +66,7 @@ function Routes() {
               </Route>
             ))}
             <PrivateRoute path="/dashboard">
-              <Dashboard />
+              <DashboardPage />
             </PrivateRoute>
             <Route component={NotFound} />
           </Switch>
