@@ -3,7 +3,7 @@ import { changeLanguage } from 'store';
 import styled from 'styled-components';
 
 const LangSwithContainer = styled.div`
-  position: absolute;
+  /* position: absolute; */
   top: 3rem;
   right: 3rem;
 `;
